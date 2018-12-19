@@ -16,6 +16,8 @@ Source100:	%{name}.rpmlintrc
 BuildRequires:	cmake
 BuildRequires:	qmake5
 BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Widgets)
+BuildRequires:	pkgconfig(Qt5Xml)
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python3)
