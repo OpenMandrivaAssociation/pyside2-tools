@@ -14,6 +14,7 @@ Url:		https://wiki.qt.io/Qt_for_Python
 Source0:	pyside-setup-everywhere-src-%{version}a1.tar.xz
 Source100:	%{name}.rpmlintrc
 BuildRequires:	cmake
+BuildRequires:	qmake5
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(python2)
 BuildRequires:	python2-setuptools
