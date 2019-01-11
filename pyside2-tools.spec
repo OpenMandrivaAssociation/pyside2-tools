@@ -33,6 +33,7 @@ all of the platforms as Qt itself.
 
 %files
 %{_bindir}/pyside2-*
+%{_bindir}/pyside_tool.py
 %{py_platsitedir}/pyside2uic
 %{_mandir}/man1/pyside2-*
 
